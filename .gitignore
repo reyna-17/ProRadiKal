@@ -1,0 +1,11 @@
+# Python cache & environment
+__pycache__/
+*.pyc
+.venv/
+env/
+.vscode/
+
+# Flask instance / DB
+instance/
+*.db
+*.sqlite

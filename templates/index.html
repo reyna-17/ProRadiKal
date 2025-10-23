@@ -3,10 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProRadiKal</title>
+    <title>ProRadiKal | Kalkulator Proteksi Radiasi</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
   </head>
   <body>
-    <h1>Selamat datang di ProRadiKal!</h1>
-    <p>Website kalkulator proteksi radiasi berbasis Flask.</p>
+    <header>
+      <div class="container">
+        <h1>⚛ ProRadiKal</h1>
+        <p>Kalkulator Proteksi Radiasi Berbasis Web</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2>Selamat Datang!</h2>
+        <p>
+          ProRadiKal membantu menghitung aktivitas sumber dan laju paparan
+          radiasi dengan cepat dan akurat.
+        </p>
+        <a href="#" class="btn">Mulai Kalkulator</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 ProRadiKal — Tugas Akhir Rey</p>
+    </footer>
   </body>
 </html>
